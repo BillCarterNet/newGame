@@ -1,0 +1,1 @@
+First, obtain the libraries for threejs and ammojs. Threejs can be gotten from https://threejs.org/build/three.js while for ammojs, download the repo from https://github.com/kripken/ammo.js and go to the build folder for ammo.js file.

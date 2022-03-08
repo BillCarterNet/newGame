@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>A Game by Bill Carter</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A Game by Bill Carter">
+        <meta name="title" content="A Game by Bill Carter">
+        <meta name="author" content="Bill Carter">
+        <link rel="stylesheet" id="gameCss" href="/css/game.css"/>
+    </head>
+
+    <body>
+        <!-- Load three.js -->
+        <script src="./js/lib/three.js"></script>
+        <!-- Load ammo.js -->
+        <script src="./js/lib/ammo.js"></script>
+        <!-- Load game code -->
+        <script type="module" src="./js/code.js"></script>
+        <!-- Needs to be type = module to use imports -->
+        <!-- Also needs to run as server to avoid CORS issues -->
+        <div id="gameArea" class="gameArea">
+          <div id="splash" style="height: 720px;width: 1280px;border-style: solid;z-index: 1;position: absolute;">
+              <img style ="max-height: 100%;max-width: 100%;" src="./images/C3-Final.png">
+          </div>
+        </div>
+    </body>
+
+</html>
